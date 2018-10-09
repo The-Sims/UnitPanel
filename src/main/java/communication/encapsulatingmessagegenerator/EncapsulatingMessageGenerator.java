@@ -1,7 +1,7 @@
 package communication.encapsulatingmessagegenerator;
 
 import com.google.gson.Gson;
-import communication.messages.managermessages.EncapsulatingMessage;
+import communication.messages.EncapsulatingMessage;
 
 public class EncapsulatingMessageGenerator implements IEncapsulatingMessageGenerator {
 

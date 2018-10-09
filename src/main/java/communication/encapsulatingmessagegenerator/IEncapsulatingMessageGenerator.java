@@ -1,6 +1,6 @@
 package communication.encapsulatingmessagegenerator;
 
-import communication.messages.managermessages.EncapsulatingMessage;
+import communication.messages.EncapsulatingMessage;
 
 public interface IEncapsulatingMessageGenerator {
     EncapsulatingMessage generateMessage(Object content);

@@ -1,4 +1,4 @@
-package communication.messages.managermessages;
+package communication.messages;
 
 public class EncapsulatingMessage {
     private String messageType;

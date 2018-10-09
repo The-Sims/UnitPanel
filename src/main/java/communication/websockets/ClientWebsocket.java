@@ -1,7 +1,7 @@
 package communication.websockets;
 
 import communication.messageprocessor.IMessageProcessor;
-import communication.messages.managermessages.EncapsulatingMessage;
+import communication.messages.EncapsulatingMessage;
 import logger.LogLevel;
 import logger.Logger;
 
