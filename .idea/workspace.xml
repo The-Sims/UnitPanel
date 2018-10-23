@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff511ecb-f1ca-4cdb-b68c-ae75c551c727" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageOrder.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/communication/encapsulatingmessagegenerator/EncapsulatingMessageGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/communication/encapsulatingmessagegenerator/EncapsulatingMessageGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/communication/encapsulatingmessagegenerator/IEncapsulatingMessageGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/communication/encapsulatingmessagegenerator/IEncapsulatingMessageGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/communication/messages/managermessages/EncapsulatingMessage.java" afterPath="$PROJECT_DIR$/src/main/java/communication/messages/EncapsulatingMessage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageConfirmOrder.java" afterPath="$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageConfirmOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/communication/websockets/ClientWebsocket.java" afterPath="$PROJECT_DIR$/src/main/java/communication/websockets/ClientWebsocket.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/RequestInfoMessage.java" afterPath="$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/MessageRequestInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/TipConfirmMessage.java" afterPath="$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/MessageTipConfirm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,58 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="EncapsulatingMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/EncapsulatingMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageRegister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageRegister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageConfirmOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageConfirmOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageConcludeOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageConcludeOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageOrder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jelle Geraets &lt;jellegeraets@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -121,6 +70,7 @@
         <option value="$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/TipConfirmMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/communication/messages/EncapsulatingMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/communication/messages/managermessages/MessageOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/MessageRequestInfo.java" />
       </list>
     </option>
   </component>
@@ -188,25 +138,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitPanel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Unitpanel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="communication" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitPanel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Unitpanel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="communication" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-              <item name="managermessages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,12 +274,20 @@
       <updated>1537266361546</updated>
       <workItem from="1537266364499" duration="6110000" />
       <workItem from="1537347693018" duration="1562000" />
-      <workItem from="1539069938556" duration="2414000" />
+      <workItem from="1539069938556" duration="3202000" />
     </task>
+    <task id="LOCAL-00001" summary="messages">
+      <created>1539074563058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539074563058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10086000" />
+    <option name="totallyTimeSpent" value="10874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -388,6 +327,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -581,17 +524,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/RequestInfoMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/TipConfirmMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/MessageTipConfirm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,6 +573,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/communication/messages/analysermessages/MessageRequestInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>

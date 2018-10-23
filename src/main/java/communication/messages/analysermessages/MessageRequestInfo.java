@@ -1,9 +1,9 @@
 package communication.messages.analysermessages;
 
-public class RequestInfoMessage {
+public class MessageRequestInfo {
     int orderId;
 
-    public RequestInfoMessage(int orderId){
+    public MessageRequestInfo(int orderId){
         this.orderId=orderId;
     }
 

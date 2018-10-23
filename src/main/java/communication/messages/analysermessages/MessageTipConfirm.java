@@ -1,10 +1,10 @@
 package communication.messages.analysermessages;
 
-public class TipConfirmMessage {
+public class MessageTipConfirm {
     int orderId;
     String tip;
 
-    public TipConfirmMessage(int orderId, String tip){
+    public MessageTipConfirm(int orderId, String tip){
         this.orderId=orderId;
         this.tip=tip;
     }
