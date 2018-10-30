@@ -12,7 +12,7 @@ import java.net.URI;
 @ClientEndpoint
 public class ClientWebsocket extends WebsocketBase implements IClientWebsocket {
 
-    private static final String serverUri = "ws://localhost:8095/submarine/websocket/";
+    private static final String serverUri = "ws://localhost:8095/unitmanagerserver/websocket/";
 
     private Session session;
     IMessageProcessor handler;

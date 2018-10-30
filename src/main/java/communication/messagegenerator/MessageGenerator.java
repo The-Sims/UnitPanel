@@ -1,15 +1,17 @@
 package communication.messagegenerator;
 
+import communication.websockets.IClientWebsocket;
+
 public class MessageGenerator implements IMessageGenerator {
 
-    private IServerWebsocket serverSocket;
+    private IClientWebsocket socket;
 
-    public MessageGenerator(IServerWebsocket serverSocket) {
-        this.serverSocket = serverSocket;
+    public MessageGenerator(IClientWebsocket socket) {
+        this.socket = socket;
     }
 
-    public void sendKill(String playerId) {
+    public void sendKill() {
         Object msg = new Object();
-        serverSocket.sendTo(playerId, msg);
+        socket.send(msg);
     }
 }

@@ -1,5 +1,6 @@
 package communication.websockets;
 
+
 import communication.messageprocessor.IMessageProcessor;
 
 public interface IClientWebsocket {
