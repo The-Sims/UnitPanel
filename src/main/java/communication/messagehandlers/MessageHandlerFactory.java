@@ -1,14 +1,16 @@
 package communication.messagehandlers;
 
 
+import clienthandler.IClientHandler;
+
 public class MessageHandlerFactory implements IMessageHandlerFactory {
 
-    public IMessageHandler getHandler(String simpleType, Object serverHandlerIn) {
-        IServerHandlerMessenger serverHandler = (IServerHandlerMessenger) serverHandlerIn;
+    public IMessageHandler getHandler(String simpleType, Object handlerIn) {
+        IClientHandler handler = (IClientHandler) handlerIn;
 
         switch(simpleType){
-            //case "MessageLobbyCreate":
-            //    return new MessageLobbyCreateHandler(serverHandler);
+            case "MessageOrder":
+                return new MessageOrderHandler(handler);
             default:
                 return null;
         }
